@@ -1,0 +1,167 @@
+/* 
+цвет основного текста #757575
+цвет заголовка h1 #FFFFFF 
+цвет заголовка h2 h3 #212121
+цвет фона hero, footer #2F303A
+цвет кнопок и ссылок #2196F3
+цвет панели Наша Команда #F5F4FA
+*/
+/*  Шрифты
+Логотип : 
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  h1
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  h2
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  h3
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  text
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  names
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  positions
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  adress
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+ */
+/* global */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-title-text-color: #ffffff;
+  --background-color: #ffffff;
+  --logo-white-color: #ffffff;
+  --logo-black-color: #000000;
+  --button-text-color: #ffffff;
+}
+
+.page {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*    logo */
+.logo {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: var(--logo-black-color);
+}
+.logo-white {
+  color: var(--logo-white-color);
+}
+/* Navigation */
+.menu-nav .link {
+  color: var(--title-text-color);
+}
+.menu-nav .link.current {
+  color: var(--accent-color);
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.adress-nav .link {
+  color: var(--primary-text-color);
+}
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--main-title-text-color);
+}
+/* Button */
+.button {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
+
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* Our Comand */
+.team-list .title {
+  color: var(--title-text-color);
+}
+/* footer */
+.adress-text {
+  color: #ffffff;
+}
+.mail-footer,
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  background-color: #2f303a;
+}
