@@ -146,6 +146,9 @@
 }
 
 /* features */
+.title {
+  color: var(--title-text-color);
+}
 .feature-list .title {
   color: var(--title-text-color);
 }
@@ -162,6 +165,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.list-item .title {
+  color: var(--title-text-color);
+}
+/* Footer */
 .footer {
   background-color: #2f303a;
 }
