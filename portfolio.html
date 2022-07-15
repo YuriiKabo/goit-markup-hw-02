@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
     <header>
-      <nav>
+      <nav class="nav-section">
         <a class="logo link" href="/" lang="en"
           >Web<span class="logo-black">Studio</span></a
         >
         <ul class="menu-nav list">
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a class="link current" href="">Портфолио</a></li>
+          <li><a class="link" href="/">Студия</a></li>
+          <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
@@ -74,8 +74,8 @@
               width="370"
               height="294"
             />
-            <h3 class="title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="prewiew-work-title title">Технокряк</h3>
+            <p class="prewiew-work-type">Веб-сайт</p>
           </li>
           <li class="list-item">
             <img
@@ -84,13 +84,15 @@
               width="370"
               height="294"
             />
-            <h3 class="title">Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h3 class="prewiew-work-title title">
+              Постер New Orlean vs Golden Star
+            </h3>
+            <p class="prewiew-work-type">Дизайн</p>
           </li>
           <li class="list-item">
             <img src="./img/fish.jpg" alt="seafood" width="370" height="294" />
-            <h3 class="title">Ресторан Seafood</h3>
-            <p>Приложение</p>
+            <h3 class="prewiew-work-title title">Ресторан Seafood</h3>
+            <p class="prewiew-work-type">Приложение</p>
           </li>
           <li class="list-item">
             <img
@@ -99,13 +101,13 @@
               width="370"
               height="294"
             />
-            <h3 class="title">Проект Prime</h3>
-            <p>Маркетинг</p>
+            <h3 class="prewiew-work-title title">Проект Prime</h3>
+            <p class="prewiew-work-type">Маркетинг</p>
           </li>
           <li class="list-item">
             <img src="./img/boxes.jpg" alt="boxes" width="370" height="294" />
-            <h3 class="title">Проект Boxes</h3>
-            <p>Приложение</p>
+            <h3 class="prewiew-work-title title">Проект Boxes</h3>
+            <p class="prewiew-work-type">Приложение</p>
           </li>
           <li class="list-item">
             <img
@@ -114,23 +116,23 @@
               width="370"
               height="294"
             />
-            <h3 class="title">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h3 class="prewiew-work-title title">Inspiration has no Borders</h3>
+            <p class="prewiew-work-type">Веб-сайт</p>
           </li>
           <li class="list-item">
             <img src="./img/book.jpg" alt="book" width="370" height="294" />
-            <h3 class="title">Издание Limited Edition</h3>
-            <p>Дизайн</p>
+            <h3 class="prewiew-work-title title">Издание Limited Edition</h3>
+            <p class="prewiew-work-type">Дизайн</p>
           </li>
           <li class="list-item">
             <img src="./img/label.jpg" alt="label" width="370" height="294" />
-            <h3 class="title">Проект LAB</h3>
-            <p>Маркетинг</p>
+            <h3 class="prewiew-work-title title">Проект LAB</h3>
+            <p class="prewiew-work-type">Маркетинг</p>
           </li>
           <li class="list-item">
             <img src="./img/laptop.jpg" alt="laptop" width="370" height="294" />
-            <h3 class="title">Growing Business</h3>
-            <p>Приложение</p>
+            <h3 class="prewiew-work-title title">Growing Business</h3>
+            <p class="prewiew-work-type">Приложение</p>
           </li>
         </ul>
       </section>
@@ -139,8 +141,8 @@
       <a class="logo link" href="/" lang="en"
         >Web<span class="logo-white">Studio</span></a
       >
-      <address class="adress">
-        <ul class="list">
+      <nav>
+        <ul class="footer-nav list">
           <li>
             <a
               class="adress-text link"
@@ -161,7 +163,7 @@
             >
           </li>
         </ul>
-      </address>
+      </nav>
     </footer>
   </body>
 </html>
