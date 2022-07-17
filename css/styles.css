@@ -24,17 +24,15 @@
 }
 .section-title {
   color: var(--title-text-color);
-}
-h2 {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
 }
-h2,
-h3 {
+.title {
   color: var(--title-text-color);
 }
+
 /*    logo */
 .logo {
   color: var(--accent-color);
@@ -91,10 +89,14 @@ h3 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.portfolio-title {
+  color: var(--title-text-color);
+  display: none;
+}
 /* Hero Button */
 .hero .button {
-  color: var(--title-text-color);
-  background-color: var(--background-color);
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
@@ -104,7 +106,7 @@ h3 {
 .hero .button:hover,
 .hero .button:focus {
   color: var(--button-text-color);
-  background-color: var(--accent-color);
+  background-color: #208ce6;
 }
 /* Filter Button */
 .filter-list .button {
@@ -121,8 +123,15 @@ h3 {
   color: var(--button-text-color);
   background-color: var(--accent-color);
 }
+.button.button-all {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
 
 /* features */
+.section-title.feature {
+  display: none;
+}
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -146,6 +155,9 @@ h3 {
 .team-list .position {
   font-size: 16px;
   line-height: 1.19;
+}
+.team-card {
+  background-color: var(--background-color);
 }
 /* Prewiew Work */
 .prewiew-work-title {
