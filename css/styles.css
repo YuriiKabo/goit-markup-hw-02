@@ -103,6 +103,10 @@
   font-size: 16px;
   line-height: 1.88;
 }
+.hero .button:hover,
+.hero .button:focus {
+  color: var(--button-text-color);
+  background-color: #188CE8;
 
 /* Filter Button */
 .filter-list .button {
