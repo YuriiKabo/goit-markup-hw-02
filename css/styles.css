@@ -106,7 +106,8 @@
 .hero .button:hover,
 .hero .button:focus {
   color: var(--button-text-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
+}
 
 /* Filter Button */
 .filter-list .button {
@@ -191,4 +192,7 @@
 .footer-nav .link:hover,
 .footer-nav .link:focus {
   color: var(--accent-color);
+}
+.adress {
+  font-style: normal;
 }
