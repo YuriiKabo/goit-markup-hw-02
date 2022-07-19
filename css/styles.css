@@ -166,12 +166,18 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .prewiew-work-type {
   font-size: 16px;
   line-height: 1.88x;
 }
 /* footer */
+.footer {
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.71;
+}
 .adress-text {
   color: #ffffff;
 }
@@ -179,17 +185,9 @@
 .tel-footer {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .list-item .title {
   color: var(--title-text-color);
 }
-/* Footer */
-.footer {
-  background-color: #2f303a;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
 .footer-nav .link:hover,
 .footer-nav .link:focus {
   color: var(--accent-color);
